@@ -1,0 +1,30 @@
+{
+  "schema_version": "phase0-fixtures-v1",
+  "generated_at_utc": "2026-03-31T00:00:00Z",
+  "fixtures": [
+    {
+      "id": "grey-2026-03-26-cotw-43ec8be4",
+      "writer": "grey-county-reporter",
+      "source": "escribe",
+      "meeting_dir": "/home/htaf/pyash/world/house/grey-county-reporter/artifacts/grey-county/meetings/2026-03-26_committee-of-the-whole_43ec8be4",
+      "transcript_dir": "/home/htaf/pyash/world/house/grey-county-reporter/artifacts/grey-county/meetings/2026-03-26_committee-of-the-whole_43ec8be4/transcript",
+      "meeting_ref": "43ec8be4",
+      "meeting_id": "43ec8be4-bfc7-4d99-abdd-ab7a5b50c4fd",
+      "base_prefix": "meeting-qwen-auto",
+      "normalized_prefix": "meeting-qwen-auto-normalized",
+      "notes": "Published fixture with full artifact chain including meeting-publish response"
+    },
+    {
+      "id": "owen-2026-03-23-council-f3b0c55c",
+      "writer": "owen-sound-reporter",
+      "source": "escribe",
+      "meeting_dir": "/home/htaf/pyash/world/house/owen-sound-reporter/artifacts/owen-sound/meetings/2026-03-23_council-meeting-regular_f3b0c55c",
+      "transcript_dir": "/home/htaf/pyash/world/house/owen-sound-reporter/artifacts/owen-sound/meetings/2026-03-23_council-meeting-regular_f3b0c55c/transcript",
+      "meeting_ref": "f3b0c55c",
+      "meeting_id": "f3b0c55c-7edc-4a80-9450-678f21fca14f",
+      "base_prefix": "meeting-qwen-auto",
+      "normalized_prefix": "meeting-qwen-auto-normalized",
+      "notes": "Published fixture; selected because it has full pipeline report, update payloads, and complete summary artifacts"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "keys": [
+    "body",
+    "fallback_used",
+    "focus",
+    "hook",
+    "jurisdiction",
+    "model",
+    "score",
+    "source_meeting_summary",
+    "source_scope",
+    "verifier_feedback"
+  ]
+}

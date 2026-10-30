@@ -1,0 +1,24 @@
+ob filename text agenda be input ya
+ob filename text outputdir be input ya
+ob filename text outputindex be input ya
+ob filename text agendahtml be input ya
+ob text text sourcebaseurl be input ya
+
+ob name agenda to name text agenda path be text do
+ob name outputdir to name text output path be text do
+ob name outputindex to name text output index path be text do
+ob name agendahtml to name text agenda html path be text do
+
+ob text "node /home/htaf/pyash/world/house/grey-county-reporter/program/extract-escribe-agenda-items.mjs \"" to name text cmd be text do
+ob name text agenda path to name cmd be plus do
+ob text "\" \"" to name cmd be plus do
+ob name text output path to name cmd be plus do
+ob text "\" \"" to name cmd be plus do
+ob name text output index path to name cmd be plus do
+ob text "\" \"" to name cmd be plus do
+ob name text agenda html path to name cmd be plus do
+ob text "\" \"" to name cmd be plus do
+ob name sourcebaseurl to name cmd be plus do
+ob text "\"" to name cmd be plus do
+
+ob text of ob of cmd be command do

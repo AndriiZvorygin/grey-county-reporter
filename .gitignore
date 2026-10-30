@@ -1,0 +1,16 @@
+artifacts/
+.env
+.presence.pya
+configure/secret.pya
+know/
+newspaper/
+session/
+world/
+.codex
+
+conduct/channel-state-matrix.pya
+
+# Local runtime and authentication state
+conduct/
+cron.log
+__tmp_*

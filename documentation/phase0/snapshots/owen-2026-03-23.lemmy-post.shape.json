@@ -1,0 +1,21 @@
+{
+  "keys": [
+    "body",
+    "body_markdown",
+    "date_iso",
+    "discussion_url",
+    "focus",
+    "generated_at_utc",
+    "hook",
+    "jurisdiction",
+    "local_cover_image",
+    "local_transcript_html",
+    "source",
+    "title",
+    "transcript_url"
+  ],
+  "source_keys": [
+    "meeting_url",
+    "video_url"
+  ]
+}

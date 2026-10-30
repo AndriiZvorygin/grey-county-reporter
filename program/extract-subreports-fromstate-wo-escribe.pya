@@ -1,0 +1,22 @@
+exists su name output index ob text "" be default ya
+exists su name agenda html ob text "" be default ya
+exists su name source base url ob text "" be default ya
+ob filename text agenda be input ya
+ob filename text outputdir be input ya
+
+ob name agenda to name text agenda path be text do
+ob name outputdir to name text output path be text do
+
+ob text "node /home/htaf/pyash/world/house/grey-county-reporter/program/extract-escribe-agenda-items.mjs \"" to name text cmd be text do
+ob name text agenda path to name cmd be plus do
+ob text "\" \"" to name cmd be plus do
+ob name text output path to name cmd be plus do
+ob text "\" \"" to name cmd be plus do
+ob name text output index to name cmd be plus do
+ob text "\" \"" to name cmd be plus do
+ob name text agenda html to name cmd be plus do
+ob text "\" \"" to name cmd be plus do
+ob name text source base url to name cmd be plus do
+ob text "\"" to name cmd be plus do
+
+ob text of ob of cmd be command do

@@ -1,0 +1,15 @@
+exists su name prefix ob text "meeting-qwen-auto-normalized" be default ya
+exists su name style ob text "" be default ya
+ob filename text transcriptdir be input ya
+
+ob name transcriptdir to name text transcript path be text do
+
+ob text "PYA_COMMAND_TIMEOUT_MS=2700000 node /home/htaf/pyash/command/draw_meeting_cover_from_transcript_folder.mjs \"" to name text cmd be text do
+ob name text transcript path to name cmd be plus do
+ob text "\" \"" to name cmd be plus do
+ob name text prefix to name cmd be plus do
+ob text "\" \"" to name cmd be plus do
+ob name text style to name cmd be plus do
+ob text "\"" to name cmd be plus do
+
+ob text of ob of cmd be command do

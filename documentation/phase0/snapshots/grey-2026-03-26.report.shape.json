@@ -1,0 +1,29 @@
+{
+  "report_keys": [
+    "audio_seconds",
+    "base_prefix",
+    "body",
+    "discussion_url",
+    "focus",
+    "generated_at_utc",
+    "jurisdiction",
+    "normalized_prefix",
+    "outputs",
+    "site_url",
+    "stages",
+    "transcript_dir",
+    "voices_base_dir",
+    "voices_work_dir"
+  ],
+  "stages_len": 14,
+  "output_keys": [
+    "agenda_summary_json",
+    "html",
+    "image",
+    "lemmy_payload",
+    "meeting_hook_txt",
+    "meeting_summary_md",
+    "normalized_plain",
+    "speaker_srt"
+  ]
+}
